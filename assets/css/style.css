@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid gray; */
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2E1C2;
+}
+
+h1{
+    font-size: 48px;
+    color: #324359;
+    text-align: center;
+    margin: 20px;
+}
+.texto p{
+    font-size: 20px;
+    color: #324359;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#contador{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    color: #A6813C;
+}
+
+#contador span{
+    min-width: 100px;
+    text-align: center;
+    border: 5px double #324359;
+}
+
+
+#contador button{
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    background-color: #BF6060;
+    margin: 0 15px 0 15px;
+}
+
+.texto2 p{
+    color: #BF6060;
+    font-size: 30px;
+    height: 35px;
+}
+
+
+
+
+
